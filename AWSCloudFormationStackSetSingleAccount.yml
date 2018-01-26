@@ -58,8 +58,19 @@ Resources:
           - ec2:DescribeImages
           - ec2:DescribeSubnets
           - ec2:RequestSpotInstances
+          - ec2:RequestSpotFleet
           - ec2:TerminateInstances
           - ec2:DescribeInstanceStatus
+          - ec2:DescribeSecurityGroups
           - ec2:CreateTags
+          - ec2:CreateSecurityGroup
+          - ec2:AuthorizeSecurityGroupIngress
+          - iam:GetRole
+          - iam:CreateRole
+          - iam:PutRolePolicy
+          # Allow stack to delete
+          - ec2:DeleteSecurityGroup
+          - iam:DeleteRole
+          - iam:DeleteRolePolicy
       Roles:
       - !Ref ExecutionRole
