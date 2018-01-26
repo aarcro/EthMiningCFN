@@ -1,0 +1,10 @@
+{
+    "instance_type": "g2.2xlarge",
+    "region": "us-east-1",
+    "use1_ami": "ami-41e0b93b",
+    "vpc_id": "",
+    "subnet_id": "",
+    "security_group_id": "",
+    "ssh_keypair_name": "",
+    "ssh_username": "ubuntu"
+}
