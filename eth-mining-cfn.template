@@ -106,6 +106,7 @@
                     "ec2:DescribeImages",
                     "ec2:DescribeSubnets",
                     "ec2:RequestSpotInstances",
+                    "ec2:RequestSpotFleet",
                     "ec2:TerminateInstances",
                     "ec2:DescribeInstanceStatus",
                     "ec2:CreateTags"
